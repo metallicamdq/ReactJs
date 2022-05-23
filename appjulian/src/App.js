@@ -1,11 +1,13 @@
-import './App.css';
-import Navbar from './components/navbar'
+import './body.css';
+import ItemListContainer from './components/Cart/ItemListContainer';
+import NavBar from './components/navbar'
 
 function App() {
   return (
-    <div className="App">
-     <Navbar/>
-    </div>
+    <div className="body">
+     <NavBar/>
+     <ItemListContainer titulo="Nike Air Max"/>
+     </div>
   );
 }
 
